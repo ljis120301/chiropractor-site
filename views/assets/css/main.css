@@ -495,7 +495,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/spine.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -2056,6 +2056,7 @@ section {
   background-color: #f7f9fc;
   background-size: contain;
   padding: 60px 0 30px 0;
+
 }
 
 .footer .footer-content .footer-info {
@@ -2176,3 +2177,44 @@ section {
   font-size: 13px;
   color: var(--color-secondary);
 }
+
+
+
+
+
+
+
+
+
+
+.store-hours {
+  font-family: Arial, sans-serif;
+}
+
+.store-hours h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.store-hours ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.store-hours li {
+  margin-bottom: 5px;
+}
+
+.store-hours li span {
+  font-weight: bold;
+  margin-right: 5px;
+  display: inline-block;
+  width: 80px; /* Adjust as needed */
+}
+
+/* Optional: Change color or style of closed hours */
+.store-hours li.closed {
+  color: #ff0000; /* Red color for closed hours */
+  font-style: italic; /* Italicize closed hours */
+}
+
